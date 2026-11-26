@@ -1,0 +1,8 @@
+pmoired>=1.2
+astropy>=5.0
+numpy
+scipy
+pandas
+matplotlib
+ipywidgets
+jupyter

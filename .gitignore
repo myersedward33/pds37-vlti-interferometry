@@ -1,0 +1,19 @@
+# Everything in data/ stays local: raw data, file lists, any derived products
+data/*
+!data/README.md
+
+# Interferometric data anywhere else in the tree
+*.fits
+*.fits~
+*.oifits
+*.fits.gz
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
